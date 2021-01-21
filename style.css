@@ -92,9 +92,17 @@ table th{
     text-align: left;
 }
 
-table td{
+table tbody td{
     background: white;
     padding: 1rem 2rem;
+}
+
+table tr{
+    opacity:0.7
+}
+
+table tr:hover{
+    opacity: 1;
 }
 
 table thead tr th:first-child,
